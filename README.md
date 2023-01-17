@@ -1,4 +1,4 @@
-<div style="display:flex; justify-content:center">
+<div align="center">
     <img width="40%" src="calculadora.jpg">
 
     ## Acerca del proyecto
