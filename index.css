@@ -1,0 +1,84 @@
+*{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora{
+    height: 40rem;
+   display: grid;
+   grid-template-columns: repeat(4, 100px);
+   grid-template-rows: 140px  repeat(5, 100px);
+   background-color: black;
+   border-radius: 15px;
+}
+
+
+button:nth-child(n + 19){
+    border-right: none;
+    border-bottom: none;
+}
+button:nth-child(4n+4){
+    border-right: none;
+}
+
+.borderIzq{
+    border-left: none;
+}
+
+.btnAbajo{
+   border-bottom: none;
+}
+.borderArriba{
+    border-top: none;
+}
+button{
+    cursor: pointer;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.operador{
+    background-color: orange;
+}
+
+.arribabtns{
+    background-color: rgb(51, 51, 51);
+}
+
+button:active{
+    background-color: rgb(181, 180, 180);
+}
+
+#displayCalculadora{
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    text-align: right;
+    font-size: 50px;
+}
+
+.col-2{
+    grid-column: span 2;
+    
+}
+.cero{
+    border-bottom-left-radius: 15px;
+}
+.igual{
+    border-bottom-right-radius: 15px;
+}
+
+    
