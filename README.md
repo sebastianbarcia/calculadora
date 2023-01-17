@@ -1,6 +1,6 @@
-<div style="display:flex; justify-content-center">
+<div style="display:flex; justify-content:center">
     <img width="40%" src="calculadora.jpg">
 
     ## Acerca del proyecto
-    Ejercicio realizado en HTML5, CSS3, Javascript 
+    Esta calculadora es un ejercicio realizado en HTML5, CSS3 y Javascript 
 </div>
