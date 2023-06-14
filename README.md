@@ -4,3 +4,6 @@
 
 ## Acerca del proyecto
 Esta calculadora es un ejercicio realizado en HTML5, CSS3 y Javascript 
+
+## Usar la calculadora
+https://sebastianbarcia.github.io/calculadora/
